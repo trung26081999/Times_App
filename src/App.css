@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-container {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+  margin: 0 auto;
+}
